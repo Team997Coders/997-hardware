@@ -47,6 +47,8 @@ boardGenerate() {
 
     DUMMY=$(zip -rj ${zipFile} ${tempDir})
 
+    git add ${zipFile}
+
     rm -rf ${tempDir}
 }
 
