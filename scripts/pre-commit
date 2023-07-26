@@ -1,0 +1,59 @@
+#!/bin/bash
+
+PARENT_DIR=$(git rev-parse --show-toplevel)
+
+generateImages() {
+    source="$1"
+    base="$(basename --suffix=.kicad_pcb ${source})"
+
+    echo "Generating ${base} images..."
+    
+    pcbdraw plot ${source} "assets/images/${base}/front.svg" --side=front --margin=5 --style="${PARENT_DIR}renderStyle.json" --silent
+    if [$? == 127 ]; then 
+        echo "pcbdraw not found!"
+    else
+        git add "assets/images/${base}/front.svg"
+        pcbdraw plot ${source} "assets/images/${base}/back.svg" --side=back --margin=5 --style="${PARENT_DIR}renderStyle.json" --silent
+        git add "assets/images/${base}/back.svg"
+    fi
+
+    echo "${base} images generated!"
+}
+
+echo "Starting image generation..."
+
+export -f generateImages
+
+find ${PARENT_DIR} -type f -name "*.kicad_pcb" -exec bash -c 'generateImages "$@"' bash {} \;
+
+echo "Finished image generation!"
+
+boardGenerate() {
+    source="$1"
+    base="$(basename --suffix=.kicad_pcb ${source})"
+
+    echo "Generating ${base} gerbers..."
+    
+    tempDir="./${base}_temp"
+
+    mkdir -p ${tempDir}
+
+    DUMMY=$(kicad-cli pcb export gerbers ${source} --output "${tempDir}")
+    DUMMY=$(kicad-cli pcb export drill ${source} --output "${tempDir}/")
+    
+    zipFile="./assets/gerbers/${base}.zip"
+
+    rm -rf ${zipFile}
+
+    DUMMY=$(zip -rj ${zipFile} ${tempDir})
+
+    rm -rf ${tempDir}
+}
+
+echo "Starting gerber generation..."
+
+mkdir -p ./assets/gerbers
+export -f boardGenerate
+find . -type f -name "*.kicad_pcb" -exec bash -c 'boardGenerate "$@"' bash {} \;
+
+echo "Finished gerber generation!"
