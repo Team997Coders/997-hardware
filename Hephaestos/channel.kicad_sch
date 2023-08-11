@@ -588,7 +588,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 50.8 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12296d6a-2d8e-44ea-ab87-4b313cf92c9f)
-    (property "Reference" "J3" (at 55.88 73.6599 90)
+    (property "Reference" "J8" (at 55.88 73.6599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02" (at 55.88 76.1999 90)
@@ -608,13 +608,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "J3") (unit 1)
+          (reference "J8") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "J8") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "J10") (unit 1)
@@ -623,13 +623,13 @@
           (reference "J9") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "J7") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -730,7 +730,7 @@
   (symbol (lib_id "Device:R") (at 99.06 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22c19c2e-5c17-4dfc-a1c3-f2e819a6b50a)
-    (property "Reference" "R3" (at 99.06 105.41 90)
+    (property "Reference" "R57" (at 99.06 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15k" (at 99.06 107.95 90)
@@ -747,13 +747,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R3") (unit 1)
+          (reference "R57") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R23") (unit 1)
+          (reference "R58") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R39") (unit 1)
+          (reference "R59") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R53") (unit 1)
@@ -762,10 +762,10 @@
           (reference "R61") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R47") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R35") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
           (reference "R10") (unit 1)
@@ -823,7 +823,7 @@
   (symbol (lib_id "Amplifier_Operational:MCP6001-OT") (at 101.6 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6728efbd-8a28-4b73-8a57-17918b625017)
-    (property "Reference" "U1" (at 115.57 86.36 0)
+    (property "Reference" "U9" (at 115.57 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MCP6001-OT" (at 115.57 83.82 0)
@@ -846,13 +846,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "U1") (unit 1)
+          (reference "U9") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "U6") (unit 1)
+          (reference "U10") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "U9") (unit 1)
+          (reference "U11") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "U12") (unit 1)
@@ -861,13 +861,13 @@
           (reference "U13") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "U11") (unit 1)
+          (reference "U3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "U8") (unit 1)
+          (reference "U2") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -922,7 +922,7 @@
   (symbol (lib_id "Device:C") (at 107.95 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b3ab966-338b-4e27-ae95-741a0f49e7a8)
-    (property "Reference" "C1" (at 99.06 72.39 0)
+    (property "Reference" "C24" (at 99.06 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 99.06 74.93 0)
@@ -939,13 +939,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "C1") (unit 1)
+          (reference "C24") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "C11") (unit 1)
+          (reference "C25") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "C20") (unit 1)
+          (reference "C26") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "C25") (unit 1)
@@ -954,13 +954,13 @@
           (reference "C26") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "C22") (unit 1)
+          (reference "C3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "C12") (unit 1)
+          (reference "C2") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -969,7 +969,7 @@
   (symbol (lib_id "Device:LED") (at 142.24 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ff72b69-83eb-479a-884c-4f007166d444)
-    (property "Reference" "D3" (at 143.8275 73.66 0)
+    (property "Reference" "D11" (at 143.8275 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BLUE" (at 143.8275 76.2 0)
@@ -986,13 +986,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "D3") (unit 1)
+          (reference "D11") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "D8") (unit 1)
+          (reference "D12") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "D10") (unit 1)
+          (reference "D13") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "D13") (unit 1)
@@ -1001,13 +1001,13 @@
           (reference "D11") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "D9") (unit 1)
+          (reference "D3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "D4") (unit 1)
+          (reference "D2") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1016,7 +1016,7 @@
   (symbol (lib_id "Device:R") (at 85.09 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a20c8ce5-f159-436c-8151-fd38558b9b81)
-    (property "Reference" "R5" (at 85.09 81.28 90)
+    (property "Reference" "R62" (at 85.09 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 85.09 83.82 90)
@@ -1033,13 +1033,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R5") (unit 1)
+          (reference "R62") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R17") (unit 1)
+          (reference "R64") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R42") (unit 1)
+          (reference "R66") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R50") (unit 1)
@@ -1048,13 +1048,13 @@
           (reference "R60") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R45") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R34") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "R9") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1109,7 +1109,7 @@
   (symbol (lib_id "Device:R") (at 91.44 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5921a45-14b6-4897-8c4c-945c5a4f1bcc)
-    (property "Reference" "R6" (at 96.52 80.01 0)
+    (property "Reference" "R61" (at 96.52 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 96.52 82.55 0)
@@ -1126,13 +1126,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R6") (unit 1)
+          (reference "R61") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R16") (unit 1)
+          (reference "R63") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R41") (unit 1)
+          (reference "R65") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R51") (unit 1)
@@ -1141,13 +1141,13 @@
           (reference "R59") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R49") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R33") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "R13") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1156,7 +1156,7 @@
   (symbol (lib_id "Device:Fuse") (at 53.34 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb588dfc-182c-439a-ad6b-9452aac8a09b)
-    (property "Reference" "F2" (at 55.88 97.7899 0)
+    (property "Reference" "F6" (at 55.88 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FUSE" (at 55.88 100.3299 0)
@@ -1176,13 +1176,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "F2") (unit 1)
+          (reference "F6") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "F4") (unit 1)
+          (reference "F7") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "F6") (unit 1)
+          (reference "F8") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "F9") (unit 1)
@@ -1191,10 +1191,10 @@
           (reference "F8") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "F5") (unit 1)
+          (reference "F3") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "F3") (unit 1)
+          (reference "F2") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
           (reference "F1") (unit 1)
@@ -1252,7 +1252,7 @@
   (symbol (lib_id "Device:R") (at 53.34 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6ed9b62-8ec1-47b1-9490-da98256dcdf1)
-    (property "Reference" "R2" (at 55.88 90.17 0)
+    (property "Reference" "R45" (at 55.88 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.003" (at 55.88 92.7099 0)
@@ -1269,13 +1269,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R2") (unit 1)
+          (reference "R45") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R22") (unit 1)
+          (reference "R47") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R38") (unit 1)
+          (reference "R49") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R52") (unit 1)
@@ -1284,13 +1284,13 @@
           (reference "R62") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R48") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R36") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "R12") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -1299,7 +1299,7 @@
   (symbol (lib_id "Device:R") (at 134.62 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e959ada3-8071-46d8-8e4a-f1006039acfb)
-    (property "Reference" "R8" (at 134.62 74.93 90)
+    (property "Reference" "R46" (at 134.62 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 134.62 77.47 90)
@@ -1316,13 +1316,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R8") (unit 1)
+          (reference "R46") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R29") (unit 1)
+          (reference "R48") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R44") (unit 1)
+          (reference "R50") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R57") (unit 1)
@@ -1331,13 +1331,13 @@
           (reference "R55") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R43") (unit 1)
+          (reference "R22") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R25") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "R7") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1392,7 +1392,7 @@
   (symbol (lib_id "Device:R") (at 85.09 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8bcf0a7-4848-4d08-bed0-7a72684202af)
-    (property "Reference" "R4" (at 85.09 93.98 90)
+    (property "Reference" "R53" (at 85.09 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 85.09 96.52 90)
@@ -1409,13 +1409,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R4") (unit 1)
+          (reference "R53") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R24") (unit 1)
+          (reference "R54") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R40") (unit 1)
+          (reference "R55") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R54") (unit 1)
@@ -1424,13 +1424,13 @@
           (reference "R58") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/d5838ee5-6f8b-4820-8c57-67056c415f98"
-          (reference "R46") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/467b622b-4396-4ec7-8a87-d3db90537356"
-          (reference "R30") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b6d9ee6c-5d20-41f6-9da0-8a3b0d6f3d68"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
