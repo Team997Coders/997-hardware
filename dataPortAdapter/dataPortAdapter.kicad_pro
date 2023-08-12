@@ -50,7 +50,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|125745367|105500000|ca1f6816-adaf-49f9-9a8c-11965af2a7a2|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },

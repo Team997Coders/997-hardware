@@ -24,7 +24,7 @@ echo "Starting image generation..."
 
 export -f generateImages
 
-find ${PARENT_DIR} -type f -name "*.kicad_pcb" -exec bash -c 'generateImages "$@"' bash {} \;
+find ${PARENT_DIR} -type f -name "*.kicad_pcb" -not -path "*/.kiri/*" -exec bash -c 'generateImages "$@"' bash {} \;
 
 echo "Finished image generation!"
 
@@ -56,6 +56,6 @@ echo "Starting gerber generation..."
 
 mkdir -p ./assets/gerbers
 export -f boardGenerate
-find . -type f -name "*.kicad_pcb" -exec bash -c 'boardGenerate "$@"' bash {} \;
+find . -type f -name "*.kicad_pcb" -not -path "*/.kiri/*" -exec bash -c 'boardGenerate "$@"' bash {} \;
 
 echo "Finished gerber generation!"

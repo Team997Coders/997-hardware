@@ -3,6 +3,8 @@ Repository for FRC 997's custom PCB projects, made in KiCad.
 
 Documentation for each project can be found in their individual directories.
 
+[KiCanvas](https://kicanvas.org/) is recommended for viewing projects from the browser. [Kiri](https://github.com/leoheck/kiri) is a very good tool for visual git diffs of KiCad files, but only runs locally and has quite a few dependencies.
+
 ### Installation
 This project uses `kicad-cli` and `pcbdraw` in its commit hook script. `kicad-cli` is distributed with the broader KiCad package, and `pcbdraw` can be installed using [these instructions](https://github.com/yaqwsx/PcbDraw/blob/master/doc/installation.md).[^1]
 
