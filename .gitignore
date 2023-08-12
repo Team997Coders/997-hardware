@@ -1,3 +1,7 @@
+.kiri
+
+*.html
+
 *.kicad_wks
 *.kicad_dru
 *.kicad_prl
