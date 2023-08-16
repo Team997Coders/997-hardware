@@ -726,7 +726,7 @@
   (symbol (lib_id "Device:R") (at 99.06 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22c19c2e-5c17-4dfc-a1c3-f2e819a6b50a)
-    (property "Reference" "R57" (at 99.06 105.41 90)
+    (property "Reference" "R56" (at 99.06 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15k" (at 99.06 107.95 90)
@@ -743,13 +743,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R57") (unit 1)
+          (reference "R56") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R58") (unit 1)
+          (reference "R57") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R59") (unit 1)
+          (reference "R58") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R53") (unit 1)
@@ -819,7 +819,7 @@
   (symbol (lib_id "Amplifier_Operational:MCP6001-OT") (at 101.6 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6728efbd-8a28-4b73-8a57-17918b625017)
-    (property "Reference" "U9" (at 115.57 86.36 0)
+    (property "Reference" "U8" (at 115.57 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MCP6001-OT" (at 115.57 83.82 0)
@@ -842,13 +842,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "U9") (unit 1)
+          (reference "U8") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "U12") (unit 1)
@@ -918,7 +918,7 @@
   (symbol (lib_id "Device:C") (at 107.95 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b3ab966-338b-4e27-ae95-741a0f49e7a8)
-    (property "Reference" "C24" (at 99.06 72.39 0)
+    (property "Reference" "C20" (at 99.06 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 99.06 74.93 0)
@@ -935,13 +935,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "C24") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "C25") (unit 1)
+          (reference "C21") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "C26") (unit 1)
+          (reference "C22") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "C25") (unit 1)
@@ -1012,7 +1012,7 @@
   (symbol (lib_id "Device:R") (at 85.09 86.36 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a20c8ce5-f159-436c-8151-fd38558b9b81)
-    (property "Reference" "R62" (at 85.09 81.28 90)
+    (property "Reference" "R61" (at 85.09 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 85.09 83.82 90)
@@ -1029,13 +1029,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R62") (unit 1)
+          (reference "R61") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R64") (unit 1)
+          (reference "R63") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R66") (unit 1)
+          (reference "R65") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R50") (unit 1)
@@ -1105,7 +1105,7 @@
   (symbol (lib_id "Device:R") (at 91.44 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5921a45-14b6-4897-8c4c-945c5a4f1bcc)
-    (property "Reference" "R61" (at 96.52 80.01 0)
+    (property "Reference" "R60" (at 96.52 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 96.52 82.55 0)
@@ -1122,13 +1122,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R61") (unit 1)
+          (reference "R60") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R63") (unit 1)
+          (reference "R62") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R65") (unit 1)
+          (reference "R64") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R51") (unit 1)
@@ -1248,7 +1248,7 @@
   (symbol (lib_id "Device:R") (at 73.66 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e6ed9b62-8ec1-47b1-9490-da98256dcdf1)
-    (property "Reference" "R45" (at 71.12 90.17 0)
+    (property "Reference" "R44" (at 71.12 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.003" (at 71.12 87.6301 0)
@@ -1265,13 +1265,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R45") (unit 1)
+          (reference "R44") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R47") (unit 1)
+          (reference "R46") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R49") (unit 1)
+          (reference "R48") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R52") (unit 1)
@@ -1295,7 +1295,7 @@
   (symbol (lib_id "Device:R") (at 134.62 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e959ada3-8071-46d8-8e4a-f1006039acfb)
-    (property "Reference" "R46" (at 134.62 74.93 90)
+    (property "Reference" "R45" (at 134.62 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 134.62 77.47 90)
@@ -1312,13 +1312,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R46") (unit 1)
+          (reference "R45") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R48") (unit 1)
+          (reference "R47") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R50") (unit 1)
+          (reference "R49") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R57") (unit 1)
@@ -1388,7 +1388,7 @@
   (symbol (lib_id "Device:R") (at 85.09 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8bcf0a7-4848-4d08-bed0-7a72684202af)
-    (property "Reference" "R53" (at 85.09 93.98 90)
+    (property "Reference" "R52" (at 85.09 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "200" (at 85.09 96.52 90)
@@ -1405,13 +1405,13 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/b56cf97a-1d8f-494b-a267-659a81a9e13a"
-          (reference "R53") (unit 1)
+          (reference "R52") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/4a79c44b-7bf4-4348-bb5e-7f546e809505"
-          (reference "R54") (unit 1)
+          (reference "R53") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/2449b257-04af-475b-95bd-57e025d81925"
-          (reference "R55") (unit 1)
+          (reference "R54") (unit 1)
         )
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3/7e826004-89de-4756-a1d5-ffb37b42eddc"
           (reference "R54") (unit 1)

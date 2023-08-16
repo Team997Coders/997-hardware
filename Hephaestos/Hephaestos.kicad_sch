@@ -1529,6 +1529,9 @@
   (junction (at 46.99 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 2f91962d-233f-4eaf-8af9-4cb675e18360)
   )
+  (junction (at 25.4 181.61) (diameter 0) (color 0 0 0 0)
+    (uuid 32ed571d-d24c-444e-a1db-2df004f15ea5)
+  )
   (junction (at 53.34 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 384f8285-c754-4fdf-9f8e-7c42b2ea3a03)
   )
@@ -1541,6 +1544,9 @@
   (junction (at 27.94 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 43cbf881-c101-43dc-b43c-2f44b15ba6af)
   )
+  (junction (at 43.18 186.69) (diameter 0) (color 0 0 0 0)
+    (uuid 4ad9212f-0f88-46c9-bf91-54a760334dd0)
+  )
   (junction (at 203.2 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 4c047e7c-c057-46a2-b0fd-4e3a95a612fc)
   )
@@ -1552,6 +1558,9 @@
   )
   (junction (at 40.64 31.75) (diameter 0) (color 0 0 0 0)
     (uuid 6da3a100-fb77-454b-a392-e4c9d869e730)
+  )
+  (junction (at 43.18 181.61) (diameter 0) (color 0 0 0 0)
+    (uuid 7fe987c6-75aa-4a69-9cca-93ea6a967f60)
   )
   (junction (at 46.99 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 82a03ee4-2338-4f09-86f8-daecb10b24d2)
@@ -1571,14 +1580,14 @@
   (junction (at 40.64 24.13) (diameter 0) (color 0 0 0 0)
     (uuid 9be873d6-e189-4f21-8075-9bc83333de6d)
   )
-  (junction (at 25.4 179.07) (diameter 0) (color 0 0 0 0)
-    (uuid 9ec9f4ea-fe22-4b45-8b55-5bb9b4c0b084)
-  )
   (junction (at 53.34 24.13) (diameter 0) (color 0 0 0 0)
     (uuid a90a9c15-d92c-49a7-ad2e-cad26f9c111f)
   )
   (junction (at 66.04 31.75) (diameter 0) (color 0 0 0 0)
     (uuid be562281-ad43-416a-8328-6baa28d9c2d5)
+  )
+  (junction (at 25.4 186.69) (diameter 0) (color 0 0 0 0)
+    (uuid c3f76cd5-d217-44d8-bec5-27e87ae1bfab)
   )
   (junction (at 44.45 35.56) (diameter 0) (color 0 0 0 0)
     (uuid c4086008-068e-4818-bc9f-154a18d958f7)
@@ -1588,9 +1597,6 @@
   )
   (junction (at 148.59 186.69) (diameter 0) (color 0 0 0 0)
     (uuid cdb43a28-05d4-458f-84ee-c6bd58dcae51)
-  )
-  (junction (at 43.18 179.07) (diameter 0) (color 0 0 0 0)
-    (uuid ce3fab0e-f710-4f67-b9dc-3eecbca94f17)
   )
   (junction (at 107.95 58.42) (diameter 0) (color 0 0 0 0)
     (uuid cec3b6e6-73a6-4368-80c0-8e488d1c47d3)
@@ -1677,16 +1683,11 @@
     (stroke (width 0) (type default))
     (uuid 139b6daa-5def-4a43-86b7-666fd1d8cd4e)
   )
-
-  (wire (pts (xy 43.18 173.99) (xy 43.18 179.07))
-    (stroke (width 0) (type default))
-    (uuid 13f07633-f061-405e-8411-187a7c7fd2ad)
-  )
   (polyline (pts (xy 134.62 41.91) (xy 134.62 12.7))
     (stroke (width 0) (type default))
     (uuid 146f5633-13d9-427a-8d1a-7fc89d5e22ef)
   )
-  (polyline (pts (xy 15.24 152.4) (xy 15.24 186.69))
+  (polyline (pts (xy 15.24 152.4) (xy 15.24 194.31))
     (stroke (width 0) (type default))
     (uuid 14c60f3f-ff11-44d6-a90e-62f6e291a3cc)
   )
@@ -1742,6 +1743,10 @@
     (uuid 334f4a13-3304-49e5-8de5-d05a16a760fb)
   )
 
+  (wire (pts (xy 43.18 181.61) (xy 43.18 186.69))
+    (stroke (width 0) (type default))
+    (uuid 3544218b-f36e-4f9d-a5de-1c8c8e2892cb)
+  )
   (wire (pts (xy 119.38 27.94) (xy 123.19 27.94))
     (stroke (width 0) (type default))
     (uuid 37240ef3-c1e2-4e25-9690-5c7e35a41c1c)
@@ -1750,7 +1755,7 @@
     (stroke (width 0) (type default))
     (uuid 3aa62d02-92a1-48a5-af59-d7426fdf21db)
   )
-  (polyline (pts (xy 52.07 186.69) (xy 52.07 152.4))
+  (polyline (pts (xy 52.07 194.31) (xy 52.07 152.4))
     (stroke (width 0) (type default))
     (uuid 3b5f0639-0e63-4c82-8a78-26a5ea9823ea)
   )
@@ -1792,7 +1797,7 @@
     (stroke (width 0) (type default))
     (uuid 472d4d45-5809-4355-951c-057f71a68217)
   )
-  (polyline (pts (xy 15.24 186.69) (xy 52.07 186.69))
+  (polyline (pts (xy 15.24 194.31) (xy 52.07 194.31))
     (stroke (width 0) (type default))
     (uuid 4c9cd75a-17c0-4fc1-a8dc-82682524d5d6)
   )
@@ -1809,7 +1814,7 @@
     (stroke (width 0) (type default))
     (uuid 55855dea-5d77-43ac-b8f3-c338b28df45a)
   )
-  (wire (pts (xy 25.4 179.07) (xy 27.94 179.07))
+  (wire (pts (xy 25.4 186.69) (xy 27.94 186.69))
     (stroke (width 0) (type default))
     (uuid 55e14b78-5795-4806-b540-754adc0a8a21)
   )
@@ -1868,11 +1873,6 @@
     (stroke (width 0) (type default))
     (uuid 6f6bbc75-3b78-4737-8856-31b175d9e7fd)
   )
-
-  (wire (pts (xy 25.4 173.99) (xy 25.4 179.07))
-    (stroke (width 0) (type default))
-    (uuid 7a1cb51b-5bd0-4c99-b048-b55c98f57f0f)
-  )
   (polyline (pts (xy 121.92 160.02) (xy 121.92 195.58))
     (stroke (width 0) (type default))
     (uuid 7a9dc5ff-ff5a-4c01-8f09-b8d20eb60ade)
@@ -1898,6 +1898,10 @@
   (wire (pts (xy 44.45 35.56) (xy 46.99 35.56))
     (stroke (width 0) (type default))
     (uuid 88369aed-7ea3-4f73-bafd-0f11bc53bf58)
+  )
+  (wire (pts (xy 25.4 181.61) (xy 30.48 181.61))
+    (stroke (width 0) (type default))
+    (uuid 8de19c20-502f-4037-8a82-f326e660a7f9)
   )
   (wire (pts (xy 134.62 173.99) (xy 137.16 173.99))
     (stroke (width 0) (type default))
@@ -2047,6 +2051,14 @@
     (stroke (width 0) (type default))
     (uuid ce171d8f-fb25-4019-90df-596b79019168)
   )
+  (wire (pts (xy 25.4 173.99) (xy 25.4 181.61))
+    (stroke (width 0) (type default))
+    (uuid ce9cbece-c010-4e8c-9b36-d4fa733a3775)
+  )
+  (wire (pts (xy 25.4 181.61) (xy 25.4 186.69))
+    (stroke (width 0) (type default))
+    (uuid d004330e-aaca-4555-89e5-5cc21b7bda4f)
+  )
   (wire (pts (xy 21.59 24.13) (xy 27.94 24.13))
     (stroke (width 0) (type default))
     (uuid d13334f0-7f0b-402d-a5ab-97633557a70f)
@@ -2055,6 +2067,10 @@
     (stroke (width 0) (type default))
     (uuid d74c9fc0-f944-4bec-a50e-ea2a8a0b3586)
   )
+  (wire (pts (xy 38.1 181.61) (xy 43.18 181.61))
+    (stroke (width 0) (type default))
+    (uuid d8bc7c14-46b5-4f15-81d5-75b1b41701ac)
+  )
   (wire (pts (xy 46.99 24.13) (xy 53.34 24.13))
     (stroke (width 0) (type default))
     (uuid dba0f56a-4e25-4884-86dc-4b2c2adf0bfa)
@@ -2062,6 +2078,10 @@
   (wire (pts (xy 68.58 31.75) (xy 66.04 31.75))
     (stroke (width 0) (type default))
     (uuid dd5aae8b-32b0-4c47-926a-6cd8ea40cada)
+  )
+  (wire (pts (xy 43.18 173.99) (xy 43.18 181.61))
+    (stroke (width 0) (type default))
+    (uuid e098d61c-d376-4fae-85e9-00e8e5e83a60)
   )
   (wire (pts (xy 107.95 63.5) (xy 109.22 63.5))
     (stroke (width 0) (type default))
@@ -2626,7 +2646,7 @@
   (symbol (lib_id "Device:C") (at 137.16 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 073335f3-0b28-4594-9e80-bf5adcd38d2a)
-    (property "Reference" "C6" (at 127 177.8 0)
+    (property "Reference" "C5" (at 127 177.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 uF 35v" (at 127 180.34 0)
@@ -2643,7 +2663,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2776,19 +2796,19 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 25.4 179.07 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 25.4 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b7d2828-2d87-4d77-b333-b1cb790ea9aa)
-    (property "Reference" "#PWR029" (at 25.4 185.42 0)
+    (property "Reference" "#PWR029" (at 25.4 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 25.4 184.15 0)
+    (property "Value" "GND" (at 25.4 191.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 25.4 179.07 0)
+    (property "Footprint" "" (at 25.4 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 25.4 179.07 0)
+    (property "Datasheet" "" (at 25.4 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f54ef02b-34ea-4e4c-b80e-895a1d3cefe9))
@@ -2804,7 +2824,7 @@
   (symbol (lib_id "Device:C") (at 59.69 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1cd98f02-5791-4c17-8e93-6855d958b3ca)
-    (property "Reference" "C28" (at 57.15 17.78 0)
+    (property "Reference" "C12" (at 57.15 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 57.15 20.32 0)
@@ -2821,7 +2841,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C28") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2855,7 +2875,7 @@
   (symbol (lib_id "Device:C") (at 66.04 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26da9949-2129-4d99-b4ad-0b3aa9264744)
-    (property "Reference" "C12" (at 72.39 21.59 0)
+    (property "Reference" "C10" (at 72.39 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1 uF" (at 72.39 24.13 0)
@@ -2872,7 +2892,33 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C12") (unit 1)
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Polarized_US") (at 34.29 181.61 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 275928d5-a753-4ab7-a68a-bc10b71962bb)
+    (property "Reference" "C17" (at 26.67 177.8 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100 uF 35v" (at 26.67 180.34 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (at 34.29 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 34.29 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7445a955-6f8a-42f9-ae7c-01658e695f1c))
+    (pin "2" (uuid 11644f17-0a14-47d3-9c79-97de0057c0ea))
+    (instances
+      (project "Hephaestos"
+        (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2906,7 +2952,7 @@
   (symbol (lib_id "Device:R") (at 72.39 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cbff3ee-1e13-4fa7-9f9b-94be6fedf191)
-    (property "Reference" "R29" (at 74.93 170.1799 0)
+    (property "Reference" "R30" (at 74.93 170.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 74.93 172.7199 0)
@@ -2923,7 +2969,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R29") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2983,7 +3029,7 @@
   (symbol (lib_id "Device:C") (at 21.59 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bc3768d-5be6-4d43-9f10-4cdd2cdc01cf)
-    (property "Reference" "C15" (at 15.24 34.29 0)
+    (property "Reference" "C11" (at 15.24 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 15.24 36.83 0)
@@ -3000,7 +3046,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C15") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3009,7 +3055,7 @@
   (symbol (lib_id "Device:C") (at 46.99 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c3aff20-8d5c-4d94-88c1-980bd726b970)
-    (property "Reference" "C21" (at 44.45 17.78 0)
+    (property "Reference" "C18" (at 44.45 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 44.45 20.32 0)
@@ -3026,7 +3072,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C21") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -3060,7 +3106,7 @@
   (symbol (lib_id "MCU_ST_STM32F0:STM32F042C6Tx") (at 46.99 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44196039-99f7-4207-b38f-9e9fc51fbf7a)
-    (property "Reference" "U13" (at 51.7241 111.76 0)
+    (property "Reference" "U6" (at 51.7241 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F042C6Tx" (at 51.7241 114.3 0)
@@ -3123,7 +3169,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "U13") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -3160,7 +3206,7 @@
   (symbol (lib_id "Device:R") (at 72.39 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b277681-b2da-4c95-8a0a-60ead37bae06)
-    (property "Reference" "R32" (at 74.93 180.3399 0)
+    (property "Reference" "R33" (at 74.93 180.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100" (at 74.93 182.8799 0)
@@ -3177,7 +3223,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R32") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3287,7 +3333,7 @@
   (symbol (lib_id "Device:C") (at 27.94 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5fe953dd-95c7-4c55-88ce-5924da36ead9)
-    (property "Reference" "C20" (at 25.4 17.78 0)
+    (property "Reference" "C16" (at 25.4 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7 uF" (at 25.4 20.32 0)
@@ -3304,7 +3350,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C20") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3365,7 +3411,7 @@
   (symbol (lib_id "Interface_CAN_LIN:SN65HVD232") (at 209.55 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b1ae1b5-fbbe-4cdc-91b9-e41ff3ffdde7)
-    (property "Reference" "U8" (at 211.7441 73.66 0)
+    (property "Reference" "U7" (at 211.7441 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD232" (at 211.7441 76.2 0)
@@ -3388,7 +3434,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3397,7 +3443,7 @@
   (symbol (lib_id "Device:R") (at 154.94 25.4 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7dfedc5d-1fce-4f28-8eba-ddfe04b45377)
-    (property "Reference" "R33" (at 148.59 25.4 90)
+    (property "Reference" "R34" (at 148.59 25.4 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 151.13 25.4 90)
@@ -3414,7 +3460,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R33") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -3445,19 +3491,19 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 39.37 179.07 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 39.37 186.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84929089-393c-4623-8609-b32d3a32b194)
-    (property "Reference" "R37" (at 39.37 182.88 90)
+    (property "Reference" "R36" (at 39.37 190.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1k" (at 39.37 185.42 90)
+    (property "Value" "1k" (at 39.37 193.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.37 180.848 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 39.37 188.468 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 179.07 0)
+    (property "Datasheet" "~" (at 39.37 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6a8d6657-dcc1-4069-836f-f005678b515f))
@@ -3465,7 +3511,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R37") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -3474,7 +3520,7 @@
   (symbol (lib_id "Device:C") (at 203.2 69.85 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8547efed-67c8-4de0-a8cb-fb8afb6edb0d)
-    (property "Reference" "C5" (at 199.39 69.85 0)
+    (property "Reference" "C19" (at 199.39 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 199.39 72.39 0)
@@ -3491,7 +3537,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C5") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -3500,7 +3546,7 @@
   (symbol (lib_id "Device:R") (at 154.94 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88005331-c96c-49c8-978c-ba5dfd78525a)
-    (property "Reference" "R34" (at 148.59 48.26 90)
+    (property "Reference" "R35" (at 148.59 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 151.13 48.26 90)
@@ -3517,7 +3563,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R34") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -3526,7 +3572,7 @@
   (symbol (lib_id "Device:C") (at 53.34 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88d7cd0b-1f7c-4dd7-8b18-91044a13e98d)
-    (property "Reference" "C11" (at 50.8 17.78 0)
+    (property "Reference" "C9" (at 50.8 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 50.8 20.32 0)
@@ -3543,25 +3589,25 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C11") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 43.18 179.07 180) (unit 1)
+  (symbol (lib_id "power:VCC") (at 43.18 186.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d1917ae-7d8d-4b54-8df1-a18d3a77b360)
-    (property "Reference" "#PWR030" (at 43.18 175.26 0)
+    (property "Reference" "#PWR030" (at 43.18 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 43.18 184.15 0)
+    (property "Value" "VCC" (at 43.18 191.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 43.18 179.07 0)
+    (property "Footprint" "" (at 43.18 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 43.18 179.07 0)
+    (property "Datasheet" "" (at 43.18 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ea8de7cc-9f80-4867-b054-cbfd28add16a))
@@ -3627,7 +3673,7 @@
   (symbol (lib_id "Device:C") (at 107.95 31.75 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c92acae-db02-41ee-bb89-638cb976df2e)
-    (property "Reference" "C18" (at 101.6 29.21 90)
+    (property "Reference" "C14" (at 101.6 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10 pF" (at 104.14 29.21 90)
@@ -3644,7 +3690,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C18") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3678,7 +3724,7 @@
   (symbol (lib_id "Device:R") (at 154.94 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4f412a6-83ba-4a54-b1ee-0feb01888cfd)
-    (property "Reference" "R27" (at 153.67 78.74 90)
+    (property "Reference" "R28" (at 153.67 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120" (at 153.67 81.28 90)
@@ -3695,7 +3741,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R27") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -3704,7 +3750,7 @@
   (symbol (lib_id "Device:R") (at 196.85 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a62348a6-2afa-4ba1-9b9c-6cbafa3e871e)
-    (property "Reference" "R31" (at 190.5 49.53 90)
+    (property "Reference" "R32" (at 190.5 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 193.04 49.53 90)
@@ -3721,7 +3767,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R31") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -3756,7 +3802,7 @@
   (symbol (lib_id "Device:R") (at 27.94 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9bea0d2-6a9b-49d2-88e8-63eaf1ee7673)
-    (property "Reference" "R71" (at 27.94 55.88 90)
+    (property "Reference" "R37" (at 27.94 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 27.94 53.34 90)
@@ -3773,7 +3819,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R71") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -3857,7 +3903,7 @@
   (symbol (lib_id "Device:C") (at 34.29 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfd69d0f-69b2-4840-a1e5-4dd9210c9328)
-    (property "Reference" "C17" (at 31.75 17.78 0)
+    (property "Reference" "C13" (at 31.75 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 31.75 20.32 0)
@@ -3874,7 +3920,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C17") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3883,7 +3929,7 @@
   (symbol (lib_id "Device:R") (at 96.52 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1297067-42d4-4c60-b980-59a8834649f3)
-    (property "Reference" "R28" (at 99.06 170.1799 0)
+    (property "Reference" "R29" (at 99.06 170.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 99.06 172.7199 0)
@@ -3900,7 +3946,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R28") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -3931,19 +3977,19 @@
     )
   )
 
-  (symbol (lib_id "Device:LED") (at 31.75 179.07 0) (unit 1)
+  (symbol (lib_id "Device:LED") (at 31.75 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c339abf3-def1-4dcd-b6b7-354965edf076)
-    (property "Reference" "D6" (at 31.75 185.42 0)
+    (property "Reference" "D6" (at 31.75 193.04 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "BLUE" (at 31.75 182.88 0)
+    (property "Value" "BLUE" (at 31.75 190.5 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 31.75 179.07 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (at 31.75 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 31.75 179.07 0)
+    (property "Datasheet" "~" (at 31.75 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a5328fe7-7cc3-4beb-8d00-b001e53ada43))
@@ -4149,7 +4195,7 @@
   (symbol (lib_id "Device:C") (at 123.19 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da206bec-88b2-4af1-b592-69e185b48a33)
-    (property "Reference" "C19" (at 129.54 34.29 90)
+    (property "Reference" "C15" (at 129.54 34.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10 pF" (at 127 34.29 90)
@@ -4166,7 +4212,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C19") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4328,7 +4374,7 @@
   (symbol (lib_id "Device:C") (at 40.64 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e58edee6-f02c-4829-a972-55b38bb64878)
-    (property "Reference" "C8" (at 38.1 17.78 0)
+    (property "Reference" "C7" (at 38.1 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (at 38.1 20.32 0)
@@ -4345,7 +4391,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4464,7 +4510,7 @@
   (symbol (lib_id "Device:R") (at 196.85 26.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8b0700-5f49-4dcf-8f05-730aafbe9822)
-    (property "Reference" "R30" (at 190.5 26.67 90)
+    (property "Reference" "R31" (at 190.5 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 193.04 26.67 90)
@@ -4481,7 +4527,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "R30") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -4524,7 +4570,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 34.29 173.99 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5c4eb27-74a1-4840-8fa0-0c69d8134501)
-    (property "Reference" "C7" (at 34.29 167.64 90)
+    (property "Reference" "C6" (at 34.29 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100 uF 35v" (at 34.29 170.18 90)
@@ -4541,7 +4587,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4600,7 +4646,7 @@
   (symbol (lib_id "Device:C") (at 161.29 177.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff8b1942-2a59-474e-b708-234f7077ed0b)
-    (property "Reference" "C9" (at 157.48 182.88 0)
+    (property "Reference" "C8" (at 157.48 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2.2 uF" (at 157.48 180.34 0)
@@ -4617,7 +4663,7 @@
     (instances
       (project "Hephaestos"
         (path "/1d341529-07cc-4307-9d8a-f04b27be88a3"
-          (reference "C9") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
